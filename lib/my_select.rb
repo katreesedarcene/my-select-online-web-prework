@@ -1,4 +1,4 @@
 def my_select(collection)
-  collection.select do |num|
-    num
+  collection.select do |n|
+    n.even?
 end
